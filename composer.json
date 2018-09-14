@@ -1,0 +1,28 @@
+{
+  "name": "msti/pdf-converter",
+  "description": "Creates PDFs using different backend converters. Currently supports dompdf and html2pdf",
+  "type": "library",
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "msti\\PDFConverter\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "msti\\PDFConverter\\Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "mike",
+      "email": "stivaktakis@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "dompdf/dompdf": "^0.8.2",
+    "spipu/html2pdf": "^5.2",
+    "phpunit/phpunit": "^6.5"
+  }
+}
